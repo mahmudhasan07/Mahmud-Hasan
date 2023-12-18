@@ -1,0 +1,72 @@
+.mahmud{
+    color: yellow;
+    /* width: 320px; */
+    width: 75%;
+    overflow: hidden;
+    animation: slide 3s infinite alternate steps(30);
+    white-space: nowrap;
+}
+
+@keyframes slide {
+    from{
+        width: 0;
+    }
+    to {
+        width: 100;
+    }
+}
+
+.text-wrap{
+    display: inline-block;
+    /* height: 10px; */
+    /* border: 2px solid; */
+    /* line-height: 55px; */
+    overflow: hidden;
+    top: 0px;
+    /* font-size: 30px; */
+}
+.text span{
+    display: block;
+    color: yellow;
+}
+.text {
+    position: relative;
+    /* top: -50px; */
+    animation: text-animation ease 5s infinite alternate;
+}
+
+@keyframes text-animation{
+    0%{
+        top : 0px;
+    }
+    10%{
+        top : 0px;
+    }
+    20%{
+        top : 0px;
+    }
+    30%{
+        top : -50px;
+    }
+    40%{
+        top : -50px;
+    }
+    50%{
+        top : -50px;
+    }
+    60%{
+        top : -50px;
+    }
+    70%{
+        top : -100px;
+    }
+    80%{
+        top : -100px;
+    }
+    90%{
+        top : -100px;
+    }
+    100%{
+        top : -100px;
+    }
+}
